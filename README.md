@@ -1,3 +1,3 @@
-# workday-planner
+Digital Planner
 
-A digital planner where you can add/remove tasks for your workday (or your day in general!)
+A digital planner where you can add/remove tasks for your day.

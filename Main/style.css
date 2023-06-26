@@ -80,4 +80,28 @@ body {
     display: block;
   }
   
-  
+  .btn2 {
+    background-color: rgb(172, 60, 236);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .btn2:hover {
+    background-color: indigo;
+  }
+
+  .btn {
+    background-color: rgb(172, 60, 236);
+    border: none;
+    color: black;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .btn:hover {
+    background-color: indigo;
+  }
