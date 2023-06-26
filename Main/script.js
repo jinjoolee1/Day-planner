@@ -42,7 +42,11 @@ $(document).ready(function() {
 
     var interval = setInterval(hourUpdater, 15000);
   
-
+    $('hour-4 .description').val(localStorage.getItem('hour-4'));
+    $('hour-5 .description').val(localStorage.getItem('hour-5'));
+    $('hour-6 .description').val(localStorage.getItem('hour-6'));
+    $('hour-7 .description').val(localStorage.getItem('hour-7'));
+    $('hour-8 .description').val(localStorage.getItem('hour-8'));
     $('#hour-9 .description').val(localStorage.getItem('hour-9'));
     $('#hour-10 .description').val(localStorage.getItem('hour-10'));
     $('#hour-11 .description').val(localStorage.getItem('hour-11'));
@@ -63,4 +67,4 @@ $(document).ready(function() {
     $('#currentDay').text(moment().format('dddd, MMMM Do'));
   });
   
-  
+
